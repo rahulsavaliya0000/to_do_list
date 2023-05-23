@@ -256,6 +256,7 @@ class _TodoListScreenState extends State<TodoListScreen> {
       setState(() {
         todos.insert(0, TodoItem(task: newTodo));
         saveTodos();
+        print('/*/*/*/*/*/*/*/*/');
       });
       _textEditingController.clear();
     }
